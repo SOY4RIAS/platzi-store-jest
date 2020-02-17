@@ -25,6 +25,6 @@ describe('<Product />', () => {
     );
 
     wrapper.find('button').simulate('click');
-    expect(handleAddToCart).toHaveBeenCalledTimes(2);
+    expect(handleAddToCart).toHaveBeenCalledTimes(1);
   });
 });
